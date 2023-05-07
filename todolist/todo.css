@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    height: 100vh;
+    background: hsla(55, 96%, 69%, 1);
+
+    background: linear-gradient(90deg, hsla(55, 96%, 69%, 1) 0%, hsla(41, 97%, 64%, 1) 50%, hsla(343, 88%, 63%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(55, 96%, 69%, 1) 0%, hsla(41, 97%, 64%, 1) 50%, hsla(343, 88%, 63%, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    padding: 10px;
+    background-color:peachpuff;
+    height: 150px;
+    width: 400px;
+    border-radius: 50px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid hotpink;
+}
+h1{
+
+    color: hotpink;
+}
+.input{
+    margin-top: 10px;
+    margin-right:2px;
+    border: 2px solid hotpink;
+    outline: none;
+    color:hotpink
+}
+.add{
+    width:50px;
+    border:3px solid hotpink;
+    border-radius: 15%;
+    background-color: orange;
+    color:white;
+    font-size: medium;
+}
+.edit{
+    width:50px;
+    border:3px solid hotpink;
+    border-radius: 15%;
+    background-color: orange;
+    color:white;
+    font-size: medium;
+}
+.container{
+    background-color:peachpuff;
+    height: 100vh;
+    width: 400px;
+    border-radius: 50px;
+    display: flex;
+    padding: 40px;
+    border: 4px solid hotpink;
+    color: hotpink;
+
+}
